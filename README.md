@@ -1,8 +1,17 @@
-# Mayer Elektro – Website
+# Mayer Elektro & Betriebstechnik – Website
 
-Statische, mobile-first Website für den Elektro-Meisterbetrieb **Mayer Elektro**.
-Kein Build-Step, keine Abhängigkeiten – läuft direkt im Browser und ist für
-**GitHub Pages** vorbereitet (alle Pfade relativ).
+Statische, mobile-first Website für **Mayer Elektro & Betriebstechnik**
+(Inhaber Günter Mayer) in Donauwörth – Schwerpunkt Industrie-Elektroinstallation
+und Blockheizkraftwerke (BHKW). Kein Build-Step, keine Abhängigkeiten – läuft
+direkt im Browser und ist für **GitHub Pages** vorbereitet (alle Pfade relativ).
+
+## Eingetragene Echtdaten
+- **Firma:** Mayer Elektro & Betriebstechnik · **Inhaber:** Günter Mayer
+- **Adresse:** Rainer Straße 55, 86609 Donauwörth
+- **Telefon:** 0906 40218524 · **E-Mail:** info@mayer-bt.de · **USt-IdNr.:** DE288481501
+
+Noch offen (als `[SO]`/`[ph]` markiert): Öffnungszeiten, Jahre Erfahrung,
+Meister-/Innungsangaben, WhatsApp-Nummer, Google-Bewertungen, echte Fotos.
 
 ## Dateien
 | Datei | Zweck |

@@ -372,7 +372,23 @@ ul { margin: 0; padding: 0; }
 }
 .hero__trust svg { width: 20px; height: 20px; color: var(--color-accent); flex: none; }
 
-/* Notdienst-Badge */
+/* Hero-Badge (Kategorie/Trust – ruhige Markenfarbe) */
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: rgba(245, 163, 0, 0.15);
+  border: 1px solid rgba(245, 163, 0, 0.5);
+  color: var(--color-accent);
+  padding: var(--space-3) var(--space-4);
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  margin-bottom: var(--space-5);
+}
+.hero-badge svg { width: 18px; height: 18px; flex: none; }
+
+/* Notdienst-Badge (optional wiederverwendbar, z. B. bei Störungsdienst) */
 .emergency-badge {
   display: inline-flex;
   align-items: center;
@@ -829,6 +845,9 @@ textarea.form-control { min-height: 140px; resize: vertical; }
   .nav__links li:last-child { border-bottom: none; }
   .nav__links a { display: block; padding: var(--space-4) 0; }
   .nav__cta .btn--desktop { display: none; } /* Anruf-CTA im Menü wird redundant */
+
+  /* Firmen-Tagline im Header auf Mobil ausblenden (spart Höhe) */
+  .brand__name small { display: none; }
 
   .hero__actions .btn { width: 100%; justify-content: center; }
   .grid--services, .grid--3, .grid--4, .steps, .gallery { grid-template-columns: 1fr; }
